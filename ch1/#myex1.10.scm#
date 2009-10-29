@@ -1,0 +1,19 @@
+gosh> (A 1 10)
+*** ERROR: unbound variable: A
+Stack Trace:
+_______________________________________
+gosh> A 1 10
+*** ERROR: unbound variable: A
+Stack Trace:
+_______________________________________
+gosh> 1
+gosh> 10
+gosh> (A 1 10)
+*** ERROR: unbound variable: A
+Stack Trace:
+_______________________________________
+gosh> ls
+*** ERROR: unbound variable: ls
+Stack Trace:
+_______________________________________
+gosh> 

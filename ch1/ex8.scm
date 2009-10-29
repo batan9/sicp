@@ -1,6 +1,9 @@
 (define (cube x)
   (* x x x))
 
+(define (square x)
+  (* x x))
+
 (define (cbrt x)
   (define (cbrt-iter guess)  
     
